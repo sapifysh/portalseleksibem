@@ -114,7 +114,7 @@ export const PrintableResult: React.FC<PrintableResultProps> = ({ result }) => {
                 <td className="py-2.5 px-4 font-medium text-slate-600">Status Kelulusan</td>
                 <td className="py-2.5 px-4">
                   <span className={`font-bold text-base uppercase tracking-wide status-lulus ${isPassed ? 'text-emerald-700' : isPending ? 'text-amber-700' : 'text-slate-800'}`}>
-                    {isPassed ? 'LULUS' : isPending ? 'MENUNGGU PENGUMUMAN' : 'BELUM LULUS'}
+                    {isPassed ? 'LULUS' : isPending ? 'MENUNGGU PENGUMUMAN' : 'TIDAK LULUS'}
                   </span>
                 </td>
               </tr>

@@ -45,6 +45,7 @@
   letter-spacing: 0.05em;
 }
 
+.status-tidak-lulus,
 .status-belum-lulus {
   font-family: 'Inter', sans-serif !important;
   font-weight: 700 !important;

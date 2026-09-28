@@ -479,7 +479,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ isOpen, onClose }) => 
 
               <div className="p-4 rounded-2xl apple-liquid-glass-status-neutral">
                 <div className="text-[11px] font-semibold text-slate-600 uppercase tracking-wider">
-                  Belum Lulus
+                  Tidak Lulus
                 </div>
                 <div className="text-2xl font-bold text-slate-700 mt-1">
                   {stats.failed}
@@ -526,7 +526,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ isOpen, onClose }) => 
                 >
                   <option value="ALL">Semua Status</option>
                   <option value="PASSED">Lulus</option>
-                  <option value="FAILED">Belum Lulus</option>
+                  <option value="FAILED">Tidak Lulus</option>
                   <option value="PENDING">Pending</option>
                 </select>
 
@@ -638,7 +638,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ isOpen, onClose }) => 
                               ) : (
                                 <>
                                   <XCircle className="w-3 h-3 text-slate-500" />
-                                  <span>BELUM LULUS</span>
+                                  <span>TIDAK LULUS</span>
                                 </>
                               )}
                             </span>
@@ -757,7 +757,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ isOpen, onClose }) => 
                         : 'apple-liquid-glass-button text-slate-700'
                     }`}
                   >
-                    BELUM LULUS
+                    TIDAK LULUS
                   </button>
                   <button
                     type="button"
@@ -888,7 +888,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ isOpen, onClose }) => 
                         : 'apple-liquid-glass-button text-slate-700'
                     }`}
                   >
-                    BELUM LULUS
+                    TIDAK LULUS
                   </button>
                   <button
                     type="button"

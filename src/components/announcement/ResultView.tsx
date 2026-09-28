@@ -224,8 +224,8 @@ export const ResultView: React.FC<ResultViewProps> = ({
                 </div>
                 
                 <div className="py-0.5 sm:py-1">
-                  <span className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wider text-slate-700 status-belum-lulus inline-block drop-shadow-2xs">
-                    BELUM LULUS
+                  <span className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wider text-slate-700 status-tidak-lulus status-belum-lulus inline-block drop-shadow-2xs">
+                    TIDAK LULUS
                   </span>
                 </div>
 
@@ -253,7 +253,7 @@ export const ResultView: React.FC<ResultViewProps> = ({
                     Status
                   </div>
                   <div className="text-xs sm:text-sm font-semibold text-slate-700 mt-0.5 flex items-center gap-1.5">
-                    <span>BELUM LULUS</span>
+                    <span>TIDAK LULUS</span>
                   </div>
                 </div>
               </div>

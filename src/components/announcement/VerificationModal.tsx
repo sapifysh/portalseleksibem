@@ -107,7 +107,7 @@ export const VerificationModal: React.FC<VerificationModalProps> = ({ result, on
                     : 'bg-slate-100 text-slate-700 border border-slate-200'
                 }`}
               >
-                {isPassed ? 'LULUS' : isPending ? 'MENUNGGU PENGUMUMAN' : 'BELUM LULUS'}
+                {isPassed ? 'LULUS' : isPending ? 'MENUNGGU PENGUMUMAN' : 'TIDAK LULUS'}
               </span>
             </div>
 
